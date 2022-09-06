@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,7 @@
     <meta content="Free Website Template" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{% static 'img/favicon.ico' %}" rel="icon">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,13 +18,13 @@
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{% static 'lib/flaticon/font/flaticon.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
 </head>
 
 <body>
@@ -64,7 +65,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <img src="img/images/bot2.png" alt="" width="100%" height="100%">
+                    <img src="{% static 'img/images/bot2.png' %}" alt="" width="100%" height="100%">
                 </div>
                 <div class="col-lg-6">
                     <div class="section-header">
@@ -206,12 +207,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="img/images/chatbot.png" class="img-fluid" alt="">
+                        <img src="{% static 'img/images/chatbot.png' %}" class="{% static 'img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Bot 1</h4>
                         </div>
                         <div class="portfolio-links">
-                            <a href="img/images/chatbot.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="{% static 'img/images/chatbot.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -219,13 +220,13 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
-                        <img src="img/images/bot2.png" class="img-fluid" alt="">
+                        <img src="{% static 'img/images/bot2.png' %}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Bot 2</h4>
 
                         </div>
                         <div class="portfolio-links">
-                            <a href="img/images/bot2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <a href="{% static 'img/images/bot2.png' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -233,12 +234,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="img/images/bot.jfif" class="img-fluid" alt="">
+                        <img src="{% static 'img/images/bot.jfif' %}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Pizza Bot</h4>
                         </div>
                         <div class="portfolio-links">
-                            <a href="img/images/bot.jfif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                            <a href="{% static 'img/images/bot.jfif' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -246,13 +247,13 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-wrap">
-                        <img src="img/images/bot.png " class=" img-fluid " alt=" ">
+                        <img src="{% static 'img/images/bot.png' %}" class=" img-fluid " alt=" ">
                         <div class="portfolio-info ">
                             <h4>Hosp Bot</h4>
 
                         </div>
                         <div class="portfolio-links ">
-                            <a href="img/images/bot.png " data-gallery="portfolioGallery " class="portfolio-lightbox " title="Card 2 "><i class="bx bx-plus "></i></a>
+                            <a href="{% static 'img/images/bot.png' %}" data-gallery="portfolioGallery " class="portfolio-lightbox " title="Card 2 "><i class="bx bx-plus "></i></a>
                             <a href="portfolio-details.html " title="More Details "><i class="bx bx-link "></i></a>
                         </div>
                     </div>
@@ -260,13 +261,13 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
                     <div class="portfolio-wrap ">
-                        <img src="img/images/smart.png " class="img-fluid " alt=" ">
+                        <img src="{% static 'img/images/smart.png' %}" class="img-fluid " alt=" ">
                         <div class="portfolio-info ">
                             <h4>bot3</h4>
 
                         </div>
                         <div class="portfolio-links ">
-                            <a href="img/images/smart.png" data-gallery="portfolioGallery " class="portfolio-lightbox " title="Web 2 "><i class="bx bx-plus "></i></a>
+                            <a href="{% static 'img/images/smart.png' %}" data-gallery="portfolioGallery " class="portfolio-lightbox " title="Web 2 "><i class="bx bx-plus "></i></a>
                             <a href="portfolio-details.html " title="More Details "><i class="bx bx-link "></i></a>
                         </div>
                     </div>
@@ -274,13 +275,13 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app ">
                     <div class="portfolio-wrap ">
-                        <img src="img/images/chatbot.png " class="img-fluid " alt=" ">
+                        <img src="{% static 'img/images/chatbot.png' %}" class="img-fluid " alt=" ">
                         <div class="portfolio-info ">
                             <h4>Bot 4</h4>
 
                         </div>
                         <div class="portfolio-links ">
-                            <a href="img/images/chatbot.png" data-gallery="portfolioGallery " class="portfolio-lightbox " title="App 3 "><i class="bx bx-plus "></i></a>
+                            <a href="{% static 'img/images/chatbot.png' %}" data-gallery="portfolioGallery " class="portfolio-lightbox " title="App 3 "><i class="bx bx-plus "></i></a>
                             <a href="portfolio-details.html " title="More Details "><i class="bx bx-link "></i></a>
                         </div>
                     </div>
@@ -362,13 +363,13 @@
                     <div class="footer-contact ">
                         <h2>Our Location</h2>
                         <p><i class="fa fa-map-marker-alt "></i>Dar es salaam,Tanzania</p>
-                        <p><i class="fa fa-phone-alt "></i>+255 737 539 892</p>
-                        <p><i class="fa fa-envelope "></i>zipatech@gmail.com</p>
+                        <p><i class="fa fa-phone-alt "></i>+255 718 017 738</p>
+                        <p><i class="fa fa-envelope "></i>support@zipa.tech</p>
                         <div class="footer-social ">
-                            <a class="btn btn-custom " href=" "><i class="fab fa-twitter "></i></a>
+                            <a class="btn btn-custom " href="https://twitter.com/zipa_tech"><i class="fab fa-twitter "></i></a>
                             <a class="btn btn-custom " href=" "><i class="fab fa-facebook-f "></i></a>
                             <a class="btn btn-custom " href=" "><i class="fab fa-youtube "></i></a>
-                            <a class="btn btn-custom " href=" "><i class="fab fa-instagram "></i></a>
+                            <a class="btn btn-custom " href="https://instagram.com/zipa_tech"><i class="fab fa-instagram "></i></a>
                             <a class="btn btn-custom " href=" "><i class="fab fa-linkedin-in "></i></a>
                         </div>
                     </div>
@@ -420,18 +421,14 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js "></script>
-    <script src="lib/easing/easing.min.js "></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js "></script>
-    <script src="lib/waypoints/waypoints.min.js "></script>
-    <script src="lib/counterup/counterup.min.js "></script>
-    <script src="lib/parallax/parallax.min.js "></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js "></script>
-    <script src="mail/contact.js "></script>
+    <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+    <script src="{% static 'lib/counterup/counterup.min.js' %}"></script>
+    <script src="{% static 'lib/parallax/parallax.min.js' %}"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js "></script>
+    <script src="{% static 'js/main.js' %}"></script>
 </body>
 
 </html>
